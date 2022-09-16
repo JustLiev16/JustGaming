@@ -14,13 +14,13 @@
 
 .slidemenu{
   font-family: arial, sans-serif;
-  max-width: 600px;
+  max-width: 450px;
   margin: 50px auto;
   overflow: hidden;
 }
 
 .slidemenu label{
-  width: 25%;
+  width: 33.33%;
   text-align: center;
   display: block;
   float: left;
@@ -63,7 +63,7 @@
 }
 
 .slider .bar{
-  width: 25%;
+  width: 33.3333%;
   height: 5px;
   background: #333;
   border-radius: 5px;
@@ -85,6 +85,5 @@
 
 
 .slidemenu #slide-item-1:checked ~ .slider .bar{ margin-left: 0; }
-.slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
-.slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
-.slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
+.slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 33.3333%; }
+.slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 66.6666%; }
